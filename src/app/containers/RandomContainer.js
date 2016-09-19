@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import Main from '../components/Main'
+import Random from '../components/Random'
 
-export default class MainContainer extends Component {
+export default class RandomContainer extends Component {
   constructor() {
     super();
+
   }
 
   render() {
     return (
-    <Main />
+    <Random />
     )
   }
 }
